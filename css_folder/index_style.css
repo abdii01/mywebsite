@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+   
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: #F0F2F5;
+            box-sizing: border-box;
+        }
+
+        header{
+            width: 100%;
+            height: 600px;
+            background-color: white;
+            position: relative;
+        }
+      #idimagS_earea{
+          position: absolute;
+          left: 15%;
+          width: 70%;
+          height: 400px;
+          background: url(../images/smail_yaya_med_amin_l3id.jpg);
+          background-size: cover;
+          border-radius: 20px;
+     }
+    #image_profile img{
+            border: 5px solid white;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            object-fit: cover;
+            height: 300px; 
+            width: 300px;
+            border-radius: 100px;
+        }
+        #camericone{
+                position: absolute;
+                top: 70%;
+                left: 58.2%;
+                width: 30px;
+                height: 30px;
+                border-radius: 100px;
+                display: flex;
+                flex-flow: row wrap ;
+                justify-content: center;
+                align-content: center;
+        }
+     
+        #nom_text strong{
+           font-family: 'Yusei Magic', sans-serif;
+           font-size: 20px;
+           position: absolute;
+           top: 530px;
+           left: 750px;
+        }
+        #headerr_id{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            flex-flow:  row wrap;
+            justify-content: center;
+            align-content: center;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+             box-shadow: 0px 5px  5px darkgray;
+        }
+        #headerr_id  ul{
+            display: flex;
+             justify-content: center;
+             width: 30%;
+             height: 100px;
+             align-self: center;
+
+        }
+        #headerr_id a{
+           width: 30%;
+           height: 100px;
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: center;
+           align-content: center;
+           text-decoration: none;
+           color: black;
+       }
+       #headerr_id a:hover{
+           background-color: #F0F2F5;
+       }
+       #down_of_header{
+           width: 100%;
+           display: flex;
+           justify-content: flex-start;
+           align-content: flex-start;
+       }
+       #left_side{
+           background-color: white;
+           width: 25%;
+           border-radius: 30px;
+           margin: 100px 50px 100px 100px;
+          height: 400px;
+          padding-left: 30px;
+          position: sticky;
+          top: 120px;
+          display: inline-flex;
+       }
+       .iconene_info{
+           display: flex;
+           flex-flow: row wrap;
+           margin: 20px 0px;
+      }
+      .iconene_info i{
+          font-size: 30px;
+          margin-right: 20px;
+      }
+      .iconene_info p{
+          white-space: normal;
+      }
+      #right_side{
+          width: 75%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-content: center;
+          
+      }
+      #post{
+          width: 60%;
+          height: 550px;
+          background-color: white;
+          margin: 20px;
+      }
+      #post_head {
+          width: 30%;
+          height: 50px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-content: center;
+          margin: 20px;
+      }
+      #post_head img{
+        object-fit: cover;
+        margin-right: 10px;
+         width: 50px;
+         height: 50px;
+         border-radius: 100px;
+         border: 2px solid black;
+     }
+     #What_you_think{
+         background-color: white;
+        
+         width: 60%;
+         margin-bottom: 20px;
+         margin-top: 60px;
+     }
+      .post_head {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-content: center;
+       padding: 20px; 
+    }
+    .post_head img{
+        object-fit: cover;
+        margin-right: 15px;
+         width: 50px;
+         height: 50px;
+         border-radius: 100px;
+         border: 2px solid black;
+       
+     }
+      .input_earea{
+          background-color: #F0F2F5;
+          width: 83%;
+          height: 50px;
+          border-radius: 40px;
+
+      }
+      .input_earea input{
+               width: 83%;
+               margin-left: 10px;
+               height: 50px;
+               font-size: 20px;
+                background: none;
+                border: none;
+                outline: none;
+
+      }
+      .what_you_think_icone{
+          width: 100%;
+          height: 70px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-content: center;
+      }
+        .what_you_think_icone a{
+          
+            width: 30%;
+            height: 40px;
+            font-size: 20px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+            border-radius: 10px;
+        }
+        .what_you_think_icone a:hover{
+               background-color: #F0F2F5;
+        }
+      #post_content img{
+        width: 100%;
+          height:400px;
+        object-fit: contain;
+      }
+        a:hover{
+            cursor: pointer;
+        }
+      #post_footer{
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content:space-between;
+          align-content: center;
+          height: 50px;
+      }
+      #post_footer a{
+          height: 50px;
+          width: 30%;
+          display: flex;
+          flex-flow:row wrap ;
+          justify-content: center;
+          align-content: center;
+      }
+      #post_footer i{
+          font-size: 20px;
+          margin-right: 10px;
+      }
+      #post_footer a:hover{
+                 background-color: #F0F2F5;
+      }
+
+  #like_icone:hover  #imohy_blok{
+       visibility: visible;
+  }
+  #my_view{
+     width: fit-content;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 40px;
+     display: flex;
+      font-size: 25px;
+     position: relative;
+     bottom: 80px;
+    visibility: hidden;
+  }
+  #my_view a{
+      width: 25px;
+      height: 25px;
+      border-radius: 100px;
+      display: flex;
+      flex-flow: wrap row;
+      justify-content: center;
+      align-content: center;
+      margin-right: 10px;
+
+  }
+  #my_view a:hover{
+           font-size: 32px;
+  }

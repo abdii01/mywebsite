@@ -1,0 +1,20 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.lecoure{
+    margin-top: 50px;
+   
+  }
+
+.titel_de_coure{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+.imaje_earea{
+   display: flex;
+   flex-flow: row wrap;
+justify-content: center;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Google template</title>
+    <link rel="shortout icon" type="image/x-icon" href="../images/googlelogo.jpg" style="border-radius: 100%; background-color: #EA4335"> 
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Abdi Bouh">
+    <meta name="description" content="try to make same google.com teplate">
+    <meta name="keywords" content="HTML, CSS, Google tempale , template , abdi bouh">
+    <meta http-equiv="refresh" content="30">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+        #header_elemrnt{
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: flex-end;
+           align-content: center;
+           height:40px ;
+           background-color: white;
+           margin: 20px;
+     }
+     #emaillink{
+         display: inline-flex;
+         flex-flow: row wrap;
+         justify-content: center;
+         align-content: center;
+         margin-right:20px ;
+     }
+      *{
+          padding: 0px;
+          margin: 0px;
+      }
+       body{
+           background-color: white;
+       }
+      #emailnamelogo{
+          background-color: #C2185B;
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          display: inline-flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-content: center;
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          font-size: 15px;
+      }
+       a{
+          text-decoration: none;
+          color: black;
+      }
+     a:hover{
+          color: black;
+          text-decoration: underline;
+          cursor: pointer;
+      } 
+      .godrivelogo{
+      
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          display: inline-flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-content: center;
+      }
+      .godrivelogo:hover{
+        background-color: #F2F2F2;
+      }
+      .allitemcursor:hover{
+          cursor: pointer;
+      }
+      .centerpage{
+          display: flex;
+          flex-flow: column wrap;
+         align-content: center;
+         justify-content: center;
+        height: 500px;
+      }
+      .Googletext{
+          display: flex;
+          flex-flow: row wrap;
+          align-content: center;
+          justify-content: center;
+        
+      }
+      .Googletext p{
+          font-size: 100px ;
+          font-family:  'Roboto', sans-serif;
+         
+      }
+      #inputsearch{
+          display: flex;
+          width: 40%;
+          border: #F2F2F2 solid 2px;
+          border-radius: 40px;
+          height: 40px;
+      }
+    #iconesearchearia{
+      
+        width:40px;
+         height: 40px; 
+         border-radius: 40px 0px 0px 40px; 
+         display: flex; 
+         flex-flow: row wrap;
+         justify-content: center; 
+         align-content: center;
+    }
+  button{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 35px;
+    width: 150px;
+    font-size: 17px;
+    background: none;
+    border: none;
+     overflow: none;
+     
+    }
+    button p{
+       background-color: #F2F2F2;
+
+    }
+    button:hover{
+        background-color: #F2F2F2 ;
+        cursor: pointer;
+    }
+    </style>
+    <link  rel="stylesheet" href="../aswome/fontawesome-free-5.15.1-web/css/all.css">
+</head>
+<body>
+    <div id="header_elemrnt" class="allitemcursor">
+        <div id="emaillink" class="allitemcursor">
+        <a href="#" >Gmail</a>
+       </div>
+          <div id="emaillink" class="godrivelogo allitemcursor">
+              <i class="fab fa-google-drive"></i>
+          </div>
+          <div id="emailnamelogo" class="allitemcursor" onclick="location.href='../my_project.html';">
+             A
+          </div>
+    </div>
+    <div class="centerpage">
+                  <div class="Googletext">
+                      <p style="color: #4285F4;">G</p>
+                      <p style="color: #EA4335;">o</p>
+                      <p style="color: #FBBC05;">o</p>
+                      <p style="color: #4285F4;">g</p>
+                      <p style="color: #34A853;">l</p>
+                      <p style="color: #EA4335;">e</p>
+                  </div>
+                  
+                    <div id="inputsearch">
+                          <div id="iconesearchearia" >
+                            <i class="fas fa-search" style="color: #9AA0A6;"></i>
+                          </div>
+                       
+                              <input style=" height: 40px; border: none; background: none;flex-grow: 1;outline: none;" type="text">
+                          
+                          <div id="iconesearchearia" style="border-radius: 0px 40px 40px 0px;">
+                            <i class="fas fa-microphone" style="color: #4285F4;"></i>
+                          </div>
+                    </div>
+                      <div style="display: flex; justify-content: center; margin:30px">
+                          <button style=" margin-right: 20px;"><p>Google Search</p></button>
+                          <button ><p>I'm feeling Lucky</p></button>
+                      </div>
+                      <div style="display: flex; justify-content: center;" >
+                          <p style="margin-right: 10px;  ">Google offred in</p>
+                          <a style="margin-right: 7px; color: #1A0DAB;">العربيه</a>
+                          <a style=" color: #1A0DAB;">Francais</a>
+                      </div>
+                  
+    </div>
+
+    <div style="background-color: #F2F2F2; margin-top: 30px; height: 112px;">
+        <div style="width: 100px;padding-left: 15px;justify-content: center;height: 51px; display: flex; align-content: center; flex-flow: row wrap;" >
+            Tunisia
+        </div>
+        <hr>
+        <div class="tttt" style=" float: left;display: inline-flex;justify-content: space-between; flex-flow: row wrap;padding-left: 20px ; width: 400px;align-content: center; height: 51px;">
+             <a   href="#"> Abaut</a>
+             <a  href="#">Advertising</a>
+             <a  href="#">Busins</a>
+             <a  href="#">How search works</a>
+        </div>
+        <div class="tttt" style="float: right ;display: inline-flex;justify-content: space-between; flex-flow: row wrap;padding-right: 20px ; width: 300px;align-content: center; height: 51px;">
+            <a  href="#"> Privrcy</a>
+            <a  href="#" >Tems</a>
+            <a  href="#">overflow:none</a>
+        </div>
+    </div>
+</body>
+</html>

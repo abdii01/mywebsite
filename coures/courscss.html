@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Abdi Bouh">
+    <meta name="description" content="try to make same google.com teplate">
+    <meta name="keywords" content="HTML, CSS, Google tempale , template , abdi bouh">
+    <meta http-equiv="refresh" content="30">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        header {
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            background-color: crimson;
+        }
+
+
+        #boddy {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: auto;
+            width: 100%;
+            width: 60%;
+            margin: 5% 20%;
+
+
+        }
+
+        #titleofchapter {
+            position: relative;
+            left: 200px;
+
+        }
+
+        #allchapterzone {
+            position: relative;
+            left: 20%;
+            width: 80%;
+        }
+
+        #content {
+            position: relative;
+            left: 100px;
+        }
+
+        strong {
+            color: red;
+            font-size: 20px;
+        }
+
+        header {
+            background-color: #FEFAE0;
+            width: 100%;
+            height: 70px;
+            cursor: pointer;
+        }
+
+        header ul {
+            display: flex;
+            justify-content: center;
+            height: 70px;
+        }
+
+        header ul ol {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            /* text-align: center; */
+            height: 70px;
+        }
+
+        header ul a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            text-align: center;
+            height: 70px;
+            color: black;
+            text-decoration: none;
+        }
+
+        header ul ol:hover {
+            background-color: #D4A373;
+        }
+
+        #gg {
+            /* defaultly they are  <strong> flex-direction: row like <br>
+    |||| not like <strong>direction-colom </strong> :<br>
+    |<br>
+    |<br>
+    |<br>
+
+        </strong>*/
+            display: inline-flex;
+            /*<strong*> this one is like inline-box </strong*> <b>*/
+            /* */
+            display: flex;
+            /* this one is like bloxk i*/
+        }
+
+
+        #headerr_id{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            flex-flow:  row wrap;
+            justify-content: center;
+            align-content: center;
+            position: sticky;
+            top: 0px;
+             box-shadow: 0px 5px 5px darkgray;
+             z-index: 1;
+        }
+        #headerr_id  ul{
+            display: flex;
+             justify-content: center;
+             width: 30%;
+             height: 100px;
+             align-self: center;
+
+        }
+        #headerr_id a{
+           width: 30%;
+           height: 100px;
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: center;
+           align-content: center;
+           text-decoration: none;
+           color: black;
+       }
+       #headerr_id a:hover{
+           background-color: #F0F2F5;
+       }
+       body{
+           background-color: #F0F2F5;
+       }
+    </style>
+    </style>
+
+</head>
+
+<body>
+    <div id="headerr_id" >
+        
+        <ul>
+            <a href="../index.html"><ol>HOME</ol></a>
+            <a href="../Mycours.html"><ol>MY COURES</ol></a>
+            <a href="../my_project.html"><ol>My_project</ol></a>
+        </ul>
+    
+    </div>
+    <div id="boddy">
+        <div class="centerr_content">
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>first chapter</h1>
+                </div>
+                <div id="discription">
+                    <p><strong>all selector are order like</strong></p>
+                    <br>
+                </div>
+                <div id="content">
+                    <ol>
+                        <li>Id</li>
+                        <li>Class</li>
+                        <li>Element</li>
+                        <li>inline css in html content</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter two color</h1>
+                </div>
+                <div id="discription">
+                    <p><strong>the color coud be right like sugnificent form as color :</strong></p>
+                    <br>
+                </div>
+                <div id="content">
+                    this form : #ffffff =>thi form is dividing the color on three part evry two value ar a color <br>
+                    frome one 15
+                    and when we rich 9 we use a,b,c,d,e,f .
+                    <br>
+                    <br>
+                    this forom : rgb(255,255,255);
+                    <br>
+                    <br>
+                    this form : rgba (255,255,255,0->1) => this one is use for make <br> trenparency for the last vlue
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter three backgroud </h1>
+                </div>
+                <div id="discription">
+                    <p><strong> backgroud </strong></p>
+                    <br>
+                </div>
+                <div id="content">
+                    background-image: url('../image/Header Background.jpg');
+                    background-size: cover; <br>
+                    background-color:rgba(0, 0,0 , .6);
+                    background-blend-mode: multiply; /* make two things<br> like color and image at the same time*/
+                    <br>
+                    <br>
+
+                </div>
+                <br>
+                <br>
+                <img style="width: 600px;height: 600px;" src="../images/uyyyyuuuuuuuuuuuuuuuuuuuu.PNG">
+                <br>
+                <br>
+            </div>
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter 4 font-family </h1>
+                </div>
+                <div id="discription">
+                    <p><strong> font-family </strong></p>
+                    <br>
+                </div>
+                <div id="content">
+                    we have to use <strong> google font</strong> to chose the font you want
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter 5 all page *{ all page style} </h1>
+                </div>
+                <div id="discription">
+                    <p><strong> * {/* all page style*/} </strong></p>
+                    <br>
+                </div>
+                <div id="content">
+                    <strong>-boder-box</strong> /* when we use this we avoid add more width to elemenet<br>
+                    when we use padding or margin exemple whithout this box-sizing if we add
+                    <strong>paddind:20px</strong><br>
+                    to element have <strong>200px</strong> all size will become <strong>240</strong>
+                    <br>
+                    <br>
+                    <strong>-font-family:</strong>
+                    <br>
+                    <br>
+                    <strong>-color:</strong>
+
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter 6 display </h1>
+                </div>
+                <div id="discription">
+                    <p> this style is use for <strong>children</strong> it hase 4 value </p>
+                    <br>
+                </div>
+                <div id="content">
+                    <strong>-inline:</strong> use for child to make it easy to place other element bihind it | | but
+                    <br>
+                    we could not give here width and height because it take minimum size to take its containt.
+                    <br>
+                    <br>
+                    <strong>-block:</strong> :no items bihind it and we can use width and height
+                    <br>
+                    <br>
+                    <strong>-inline-block:</strong> same as inline but we can use height and width
+                    <br>
+                    <br>
+                    <strong>-none :</strong> this one is like <strong> delete </strong>the element
+                </div>
+            </div>
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter 7 text-alighn: center </h1>
+                </div>
+                <div id="discription">
+                    <strong>
+                        <p> this one is use to center the elemnrnt in father horizontly this one is used with padding
+                            and margin </p>
+                    </strong>
+                    <br>
+                </div>
+                <div id="content">
+                </div>
+            </div>
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter 8 link <strong>/*a*/</strong> </h1>
+                </div>
+                <div id="discription">
+                    this one has meany style
+                    <br>
+                    <br>
+                </div>
+                <div id="content">
+                    a{
+                    display: block;
+                    background-color: blue;
+                    margin: 10px;
+                    <br>
+
+                    padding: 20px;
+                    color: white;
+                    text-align: center;
+                    border-radius:10px;
+                    text-decoration: none;
+                    }
+
+                    <br>
+                    <br>
+                    a:link{
+                    /* this one is usede for the link not clicked yet */
+                    background-color: violet;
+
+                    }
+
+                    <br>
+                    <br>
+                    a:visited{
+                    /* this one is used for the liks auredy clicked*/
+                    background-color: yellow;
+
+                    }
+
+                    <br>
+                    <br>
+                    a:hover{
+                    background-color: red;
+
+                    }
+
+                    <br>
+                    <br>
+                    a:focus{
+                    /*this one is used when we use keabord*/
+
+                    }
+                    <br>
+                    <br>
+                    a:active{
+                    /* this one is used when we keep cliking one link<BR> and dispare when we make finguer out*/
+                    }
+                    <br>
+                    <strong> thre is an order for : link and visited come before hover<br> </strong>
+                    and hover come before active
+                </div>
+            </div>
+
+            <div id="allchapterzone">
+                <div id="titleofchapter">
+                    <h1>Chapter 9 position </h1>
+                </div>
+                <div id="discription">
+                    <p><strong> it <stron> move the element </stron>it has 5 value and we use top and left <br> and
+                            right and botom :</strong></p>
+                    <br>
+                    <strong>NB :</strong> before using this element we have to aske two quations:<br>
+                    نحريك العنصر يالنسبه لمين .1
+                    <br>
+                    2. ماذا سيحدث لمانه الاصلي
+                    <br>
+                </div>
+                <div id="content">
+                    <stron>-stratic :</stron> is a default value.
+                    <br>
+                    <strong>-relative</strong> this one is frome <strong>it's default palce</strong> <br>
+                    <strong>جواب الاسآلة :</strong><br>
+                    1.بالنسبه لنفسه <br>
+                    2. يبقا فارغا
+                    <br>
+                    <br>
+                    <strong>-fixed</strong> : fixed the eemnt and will not distapare
+                    <br>
+                    <br>
+                    1.بالنسبه لمحيط النافذة
+                    <br>
+                    2. يختفي مكانه
+                    <br>
+                    <br>
+                    <strong>-stiky</strong> : تظهر مميزاته عندما نقوم بسكرول
+                    <br>
+                    <br>
+                    1.بالنسبه للاب
+                    <br>
+                    2. يختفي مكانه
+                    <br>
+                    <br>
+                    <strong>absulue</strong> : Is the most impttent one is most usfull one
+
+                    <br>
+                    <br>
+                    1.بالنسبه لمحيط الصفحة او للاب الذي يحتوي علآ بوزشن
+                    <br>
+                    2. يختفي مكانه
+                    <br>
+                    <br>
+                    <strong>Z-index :2 ore 2 or 3</strong> its so importent to if threre is items with same posotion
+                    <br> and we show the elemt with the bigest value of z-index .
+                    <a> الدرس من هنا او 3 دقاآق</a>
+                    <br>
+                    <br>
+                    <button type="button"
+                        onclick="window.open('https://www.youtube.com/watch?v=1-QpAjJE1ws&list=PLeWmXrh0047_gJPbo3hqif4Q6oFdncMs5&index=7')">
+                        اضغط هنا من اجل الدرس </button>
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter" style="position: relative; left: 300px;">
+                <h1>Chapter 9 float </h1>
+
+            </div>
+            <br>
+            <br>
+            <img style="width: 100%; height: 500px;" src="../images/float.jpg">
+            <br>
+            <br>
+            <br>
+            <div
+                style="background-color: steelblue;border-radius: 20px; width:200px;height: 70px; position: relative;left: 50%;">
+                <strong style="position: absolute; top: 20px;left: 60px; color: white;"> Flex-Box</strong>
+            </div>
+            <div style="width: 100%;">
+                <br>
+                <br>
+                <strong>1.</strong> <strong style="margin-left: 20px;">Introduction</strong>
+                <div style="margin-left: 200px;" dir="rtl">
+                    <p style="font-style: inherit;font-size:20px">أكواد ال flexbox تنقسم الى جزئين:
+                    </p>
+                    <br>
+                    <strong style="color: black;">
+                        <p>A- اكواد خاصة بالعنصر الأب (parent element)
+                        </p>
+                    </strong>
+                    <br>
+                    <strong style="color: black;">
+                        B- أكواد خاصة بالعناصر التي بداخل العنصر الاب (child elements)
+                    </strong>
+                </div>
+                <br>
+                <br>
+                <br>
+                <img height="300px" src="../images/flex2.PNG" width="100%">
+            </div>
+            <div style="width: 100%;">
+                <br>
+                <br>
+                <strong>2.1</strong> <strong style="margin-left: 20px;"> display : flex or display :
+                    inline-flex</strong>
+                <div style="margin-left: 200px;" dir="rtl">
+                    هناك طرقتين اما الاصطفاف <strong>افقي</strong> او <strong>عمودي</strong> والفرق بين
+                    <strong>inline-flex</strong> و <strong>flex</strong>
+                    هو :
+                    <br>
+                    <br>
+                    <strong dir="ltr">flex</strong>
+                    <br>
+                    <img src="../images/flex.PNG" width="100%">
+                    <br>
+                    <strong>inline-flex</strong>
+                    <br>
+                    <img src="images/inline-flex.PNG " width="100%">
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <br>
+                <br>
+                <strong>2.2</strong> <strong style="margin-left: 20px;">flex-direction </strong>
+
+
+                <img src="../images/directiontable.PNG" width="100%">
+                <img src="../images/diclorow.PNG" width="100%">
+                <br>
+                <strong dir="rtl">عكس العناصر حسب dir مثل float right or left يعني بدأ العانصلا من الجه اليمين او اليسار
+                    يالنسبه row Reverce </strong>
+            </div>
+            <div style="width: 100%;">
+                <br>
+                <br>
+                <strong>2.2</strong> <strong style="margin-left: 20px;">flex-wrap: wrap or nowrap </strong>
+
+                <br>
+                <br>
+                <strong style="color: black;">اذا كان الممساحة غير كافيه يجعله يذهيب الى صف جديد </strong>
+                <img width="100%" src="../images/wpar.PNG">
+            </div>
+            <br>
+            <br>
+            <strong>2.2</strong> <strong style="margin-left: 20px;">flex-flow row wrap or column nowrap </strong>
+            <img src="../images/flex-flow.PNG" width="100%" height="200px">
+            <br>
+            <br>
+            <strong>2.2</strong> <strong style="margin-left: 20px;">justify-content:</strong>
+            <img src="../images/jutfy-content.PNG" width="100%" height="600px">
+            <strong>2.2</strong> <strong style="margin-left: 20px;">alighn content</strong>
+            <br>
+            <br>
+            <img src="../images/xyalighncontent.PNG" width="100%" height="400px">
+            <br>
+            <br>
+            <img src="../images/xyaligh.PNG" width="100%">
+            <br>
+            <br>
+            <strong>3</strong> <strong style="margin-left: 20px;">flex child</strong>
+            <br>
+            <br>
+            <img src="../images/yyyyyyyyyyy.PNG" width="100%">
+            <br>
+            <br>
+            <strong>3.1</strong> <strong style="margin-left: 20px;">flex-grow :2</strong>
+            <br>
+            <strong>تقسيم المتبقي من الاب على العناصر الابناء حيث يقوم بتقسيم المساحة الى اجز متساوية ويأخذ العنصر صاحب
+                القيمة الاكبر المساحة عدد كبره 2/3 </strong>
+            <img width="100%" src="../images/grow.PNG">
+            <br>
+            <img width="100%" src="../images/grow2.PNG">
+            <br>
+            <br>
+            <strong>3.2</strong> <strong style="margin-left: 20px;">flex-shrink : 1 or 0</strong>
+            <br>
+            <strong>السماح بالتقليص عندما يخرج العنصر من الاب او يصبح اكبر و تريد تقلصه تعطيه قيمة 1 و اذا اردت اعطاء
+                الابن الحريه الكامله اعطيه قيمة 0</strong>
+            <img src="../images/fleeeeeeeeeeeeeeeeeeeeeeee.PNG" width="100%">
+            <br>
+            <br>
+            <img src="../images/shriiiiink.PNG" width="100%">
+            <br>
+            <br>
+            <strong>3.3</strong> <strong style="margin-left: 20px;">flex-basis :</strong>
+            <br>
+            <br>
+            <strong style="color: black;"> يكون مثل ويدث  و اذا وضعناه في كل عنصر واعطيناه القيمه 0 سوف يقوم بتسويه العرض اذا الاب  كان رو و بالطول اذا كان كلومن ثم يقسم المساحة المتبقيه من الاب حسب فلكس-كرو </strong>
+            <br>
+            <br>
+            <img src="../images/flex-basis.PNG" width="100%">
+            <br>
+            <br>
+            <strong>3.2</strong> <strong style="margin-left: 20px;">flex: 0 1 auto </strong>
+            <br>
+            <br>
+            <img src="../images/qqqq.PNG" width="100%" height="300px">
+            <br>
+            <br>
+            <strong>3.4</strong> <strong style="margin-left: 20px;">order:0</strong>
+            <br>
+            <br>
+            <img width="100%" height="400px" src="../images/order.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>conclusion flex-box </h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/resumer.PNG">
+
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>Trenfrome</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/trsnsfotmimage.PNG">
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/3dtransform.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>Trensition </h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/dddddddddddddddddddddddddd.PNG">
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/trensition2.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>Animation </h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/animatioooon.PNG">
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/animatiionnn.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>height and width</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/wiand height.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>fixe sidebar</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/wiand height.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>box-shadow</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/boxshadoe.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>margin</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/margin.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>boxszing</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/boxszing.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>boxszing</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/inherit.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>Text-Overflow</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/text-overflow.PNG">
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/ezemple_text_over_flow.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>white-worpe and word-warp</h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/wordanwhitearp.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>units </h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/unit.PNG">
+            <br>
+            <br>
+            <br>
+            <div id="titleofchapter">
+                <h1>cluc </h1>
+            </div>
+            <br>
+            <br>
+            <img  width="100%" height="500px" src="../images/cluc.PNG">
+            
+        </body>
+
+</html>

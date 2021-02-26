@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.template_imaege{
+    background-image: url('images/google_templatee.PNG');
+    background-size: cover;
+    transform: scale(1,1);
+    background-blend-mode: multiply;
+}
+#cour{
+  border: 2px solid #CCD5AE;
+  width: 300px;
+  font-size: 25px;
+  cursor: p;
+  margin-left: 60px;
+  margin-top: 20px;
+} 
+a{
+    text-decoration: none;
+} 
+#cour:hover{
+  cursor: pointer;
+} 
+#body_content{
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+#titleofcour{
+ line-height: 50px;
+ background-color: white;
+ margin: 0px;
+ color: black;
+}
+#all_course{
+    padding-top: 100px;
+    padding-left: 250px;
+}
